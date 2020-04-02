@@ -8,7 +8,7 @@ public class Jdbc {
         try{
            Class.forName("com.mysql.jdbc.Driver").newInstance(); 
            String bc = "controle_freq_cacique";
-           String url = "jdbc:mysql://Localhost:55927/"+bc;
+           String url = "jdbc:mysql://Localhost:33062/"+bc;
            String user = "root";
            String psw = "1910THIAGO";
            
